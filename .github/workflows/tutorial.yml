@@ -39,7 +39,7 @@ jobs:
         run: npm test
 
       - name: check test
-        uses: actions/github-script@0.9.0
+        uses: actions/github-script@0.2.0
         with:
           github-token: ${{github.token}}  // github token을 선언해준다
           script: |                       
