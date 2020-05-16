@@ -1,0 +1,23 @@
+{
+  "name": "gitaction-tutorial",
+  "version": "1.0.0",
+  "description": "git action을 이용해 nodejs서버 ci/cd 구축  tutorial",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soob-forest/gitaction-tutorial.git"
+  },
+  "author": "soob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soob-forest/gitaction-tutorial/issues"
+  },
+  "homepage": "https://github.com/soob-forest/gitaction-tutorial#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
